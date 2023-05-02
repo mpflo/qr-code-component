@@ -20,12 +20,13 @@ img {
 }
 
 .box-wrapper {
-    width: 344px;
-    min-height: 532px;
+    width: 332px;
+    min-height: 512px;
     background-color: hsl(0, 0%, 100%);
     padding: 16px;
     border-radius: 20px;
     text-align: center;
+    box-shadow: 0px 12px 20px 0px rgba(0, 0, 0, 0.14);
 }
 
 .box-wrapper .box-image img {
@@ -44,16 +45,14 @@ img {
 .attribution { 
     font-size: 11px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(216.4, 95.4%, 57.6%); 
+    text-decoration: none;
 }
 
-@media (min-width: 768px) {
-    
-    .box-wrapper {
-        min-height: 504px;
-    }
+.attribution a:hover { 
+    text-decoration: underline;
 }
