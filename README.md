@@ -11,7 +11,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -21,55 +20,45 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-Screnshot for mobile:
+#### Screnshot for mobile:
+
 ![](./screenshots/mobile.png)
 
-Screenshot for desktop:
+#### Screenshot for desktop:
+
 ![](./screenshots/desktop.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Link to the project's repo](https://github.com/mpflo/qr-code-component)
+- Live Site URL: [Project's live URL](https://mpflo.github.io/qr-code-component/)
 
 ## My process
 
 ### Built with
 
+- Mobile-first workflow
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
+
 
 ### What I learned
 
 This challenge was easy, with the design being pretty much the same on both mobile and CSS.
 I worked with the idea of mobile-first, as I wanted to write code that easily adapts to larger screens.
-I centered the box with the image and text with Flexbox, and I left the box size in an absolute size unit (px) because I didn't want the screen size to vary the size of the box.
+I centered the box with the image and text with Flexbox, and I put a box size variation for smaller screens with 90% of width, and the larger screens were with an absolute width (332px)
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I need to improve my knowledge of Flexbox, which at the moment is basic, and of media query, because I want to make projects that adapt better to all types of screens.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- GitHub - [@mpflo](https://github.com/mpflo)
+- Frontend Mentor - [@qipeot](https://www.frontendmentor.io/profile/qipeot)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I really want to thanks [@kaiquegarcia](https://github.com/kaiquegarcia) for helping me out and being a patient mentor!
