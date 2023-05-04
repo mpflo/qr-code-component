@@ -20,7 +20,7 @@ img {
 }
 
 .box-wrapper {
-    width: 332px;
+    width: 90%;
     min-height: 512px;
     background-color: hsl(0, 0%, 100%);
     padding: 16px;
@@ -55,4 +55,20 @@ img {
 
 .attribution a:hover { 
     text-decoration: underline;
+}
+
+@media ( min-width: 767px ) {
+
+    .box-wrapper {
+        width: 72%;
+    }
+
+}
+
+@media ( min-width: 992px ) {
+
+    .box-wrapper {
+        width: 332px;
+    }
+
 }
