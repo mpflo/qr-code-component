@@ -37,7 +37,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Built with
 
-- Mobile-first workflow
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
@@ -45,9 +44,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-This challenge was easy, with the design being pretty much the same on both mobile and CSS.
-I worked with the idea of mobile-first, as I wanted to write code that easily adapts to larger screens.
-I centered the box with the image and text with Flexbox, and I put a box size variation for smaller screens with 90% of width, and the larger screens were with an absolute width (332px)
+This was a very easy project to do. As the layout does not vary the width of the box with the text, I set a width with an absolute unit of 332px and centered this box with the help of Flexbox.
 
 ### Continued development
 
